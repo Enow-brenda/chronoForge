@@ -1,0 +1,42 @@
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="10dp">
+
+        <ImageView
+            android:id="@+id/mascot"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="0dp"
+            android:src="@drawable/mascot"
+            />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <!-- Triangle Tail -->
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/polygon_1" />
+
+            <!-- Main Chat Bubble -->
+            <TextView
+                android:id="@+id/mascot_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:background="@drawable/chat_bubble_me"
+                android:padding="12dp"
+                android:text="Hey there!"
+                android:textSize="12sp"
+                android:textColor="@color/white" />
+        </FrameLayout>
+
+    </LinearLayout>
+

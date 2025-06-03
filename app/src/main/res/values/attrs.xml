@@ -1,0 +1,9 @@
+<resources>
+    <declare-styleable name="CustomSettingTabView">
+        <attr name="tabIcon" format="reference" />
+        <attr name="tabLabel" format="string" />
+    </declare-styleable>
+    <declare-styleable name="BottomNavBar">
+        <attr name="activeTabId" format="reference" />
+    </declare-styleable>
+</resources>

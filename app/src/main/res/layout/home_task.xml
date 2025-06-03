@@ -1,0 +1,61 @@
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:background="@drawable/auth_box"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingVertical="8dp">
+
+        <!-- Left Icon -->
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:layout_marginEnd="8dp" />
+
+        <!-- Center Content -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/task_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Make a dashboard Today..."
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/task_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Just Now"
+                android:textSize="10sp"/>
+        </LinearLayout>
+
+        <!-- Plus Icon -->
+        <ImageView
+            android:id="@+id/status"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="0dp"
+            android:padding="0dp"
+            android:src="@drawable/play_button" />
+
+        <!-- Checkbox -->
+        <CheckBox
+            android:id="@+id/completed"
+            android:layout_width="wrap_content"
+            android:padding="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+

@@ -1,0 +1,36 @@
+
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input"
+        android:padding="5dp"
+        android:layout_marginVertical="10dp"
+      >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/input_icon"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:src="@drawable/envelope_icon" />
+
+            <EditText
+                android:id="@+id/input_box"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/gray"
+                android:inputType="text"
+                android:hint="Email Address"
+                android:paddingHorizontal="5dp"
+                android:paddingVertical="10dp"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+    </RelativeLayout>

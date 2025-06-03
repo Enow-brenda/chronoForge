@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#946F33</color>
+    <color name="gray">#D9D9D9</color>
+    <color name="dark">#5a3925</color>
+    <color name="green">#339442</color>
+    <color name="purple">#94338E</color>
+    <color name="blue">#339194</color>
+    <color name="red">#D44444</color>
+    <color name="chat_me">#D5B683</color>
+    <color name="tab_inactive">#4B4945</color>
+
+
+</resources>

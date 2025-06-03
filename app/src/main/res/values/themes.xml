@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ChronoForge" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Global font applied here -->
+        <item name="android:fontFamily">@font/andika_new_basic_r</item>
+        <!-- You can still customize other theme options here -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.ChronoForge" parent="Base.Theme.ChronoForge" />
+</resources>
