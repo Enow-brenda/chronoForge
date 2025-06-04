@@ -29,13 +29,14 @@
                 android:layout_width="241dp"
                 android:layout_height="wrap_content"
                 android:text="Iceking"
-                android:textSize="18dp"
+                android:textSize="17sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/last_message"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="15sp"
                 android:text="Hello its nice to meet you" />
         </LinearLayout>
 
@@ -59,10 +60,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="0dp"
-                android:textSize="15sp"
+                android:textSize="13sp"
                 android:background="@drawable/circular"
-                android:paddingHorizontal="8dp"
-                android:paddingVertical="3dp"
+                android:paddingHorizontal="5dp"
+                android:paddingVertical="2dp"
                 android:text="23"
                 android:textAlignment="center"
                 android:textColor="@color/white" />

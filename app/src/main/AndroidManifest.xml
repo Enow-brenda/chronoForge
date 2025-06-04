@@ -30,6 +30,7 @@
         <activity android:name=".AddActivity" />
         <activity android:name=".SettingActivity" />
         <activity android:name=".CommunityActivity" />
+        <activity android:name=".AddTaskActivity" />
 
 
 

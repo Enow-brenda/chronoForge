@@ -38,7 +38,7 @@ public class CommunityActivity extends AppCompatActivity {
 
 
 
-        label1.setText("“It's me again \uD83D\uDC4B Connect with other forgers and have fun”");
+        label1.setText("\uD83D\uDCAC Welcome to the Forge Circle! \uD83D\uDD25 Connect, chat, and grow with fellow forgers. \uD83E\uDD1D Drop a message and spark something great! ✨");
 
         List<Chats> chats = new ArrayList<>();
         chats.add(new Chats("Mummy Louis2","Hope you saw my call","Today",0));
